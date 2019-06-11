@@ -1,0 +1,67 @@
+body {
+    padding: 0px;
+    margin: 0;
+  }
+  div.left {
+    padding: 50px;
+    box-sizing: border-box;
+    display: block;
+    width: 350px;
+    position: fixed;
+  }
+  div.left h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin: 0;
+  }
+  div.left span {
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+  }
+  div.right {
+    margin-left: 350px;
+    padding: 50px 60px;
+  }
+  div.right article {
+    border-top: 1px solid #ddd;
+    max-width: 600px;
+    margin: 0 auto 70px;
+  }
+  div.right article h1 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 0 15px;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin: 0;
+  }
+  div.right article p {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  div.right article p:first-of-type {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  textarea { 
+    width: 100%;
+    border: none;
+    margin-left: 140px;
+    max-width: 600px;
+  }
+  form > button {
+    padding: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+    border: none;
+    opacity: 0.8;
+  }
+  
